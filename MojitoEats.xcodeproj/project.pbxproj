@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B77998662615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */; };
+		B77998672615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */; };
+		B77998682615A5B2001E5B0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998542615A5B0001E5B0B /* ContentView.swift */; };
+		B77998692615A5B2001E5B0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998542615A5B0001E5B0B /* ContentView.swift */; };
+		B779986A2615A5B2001E5B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77998552615A5B2001E5B0B /* Assets.xcassets */; };
+		B779986B2615A5B2001E5B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77998552615A5B2001E5B0B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojitoEatsApp.swift; sourceTree = "<group>"; };
+		B77998542615A5B0001E5B0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B77998552615A5B2001E5B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B779985A2615A5B2001E5B0B /* MojitoEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojitoEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B779985D2615A5B2001E5B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77998622615A5B2001E5B0B /* MojitoEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojitoEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77998642615A5B2001E5B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77998652615A5B2001E5B0B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77998572615A5B2001E5B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B779985F2615A5B2001E5B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B779984D2615A5B0001E5B0B = {
+			isa = PBXGroup;
+			children = (
+				B77998522615A5B0001E5B0B /* Shared */,
+				B779985C2615A5B2001E5B0B /* iOS */,
+				B77998632615A5B2001E5B0B /* macOS */,
+				B779985B2615A5B2001E5B0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B77998522615A5B0001E5B0B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */,
+				B77998542615A5B0001E5B0B /* ContentView.swift */,
+				B77998552615A5B2001E5B0B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B779985B2615A5B2001E5B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B779985A2615A5B2001E5B0B /* MojitoEats.app */,
+				B77998622615A5B2001E5B0B /* MojitoEats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B779985C2615A5B2001E5B0B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B779985D2615A5B2001E5B0B /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		B77998632615A5B2001E5B0B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B77998642615A5B2001E5B0B /* Info.plist */,
+				B77998652615A5B2001E5B0B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77998592615A5B2001E5B0B /* MojitoEats (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B779986E2615A5B2001E5B0B /* Build configuration list for PBXNativeTarget "MojitoEats (iOS)" */;
+			buildPhases = (
+				B77998562615A5B2001E5B0B /* Sources */,
+				B77998572615A5B2001E5B0B /* Frameworks */,
+				B77998582615A5B2001E5B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MojitoEats (iOS)";
+			productName = "MojitoEats (iOS)";
+			productReference = B779985A2615A5B2001E5B0B /* MojitoEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B77998612615A5B2001E5B0B /* MojitoEats (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77998712615A5B2001E5B0B /* Build configuration list for PBXNativeTarget "MojitoEats (macOS)" */;
+			buildPhases = (
+				B779985E2615A5B2001E5B0B /* Sources */,
+				B779985F2615A5B2001E5B0B /* Frameworks */,
+				B77998602615A5B2001E5B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MojitoEats (macOS)";
+			productName = "MojitoEats (macOS)";
+			productReference = B77998622615A5B2001E5B0B /* MojitoEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B779984E2615A5B0001E5B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B77998592615A5B2001E5B0B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B77998612615A5B2001E5B0B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B77998512615A5B0001E5B0B /* Build configuration list for PBXProject "MojitoEats" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B779984D2615A5B0001E5B0B;
+			productRefGroup = B779985B2615A5B2001E5B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B77998592615A5B2001E5B0B /* MojitoEats (iOS) */,
+				B77998612615A5B2001E5B0B /* MojitoEats (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B77998582615A5B2001E5B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B779986A2615A5B2001E5B0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77998602615A5B2001E5B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B779986B2615A5B2001E5B0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B77998562615A5B2001E5B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77998682615A5B2001E5B0B /* ContentView.swift in Sources */,
+				B77998662615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B779985E2615A5B2001E5B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77998692615A5B2001E5B0B /* ContentView.swift in Sources */,
+				B77998672615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B779986C2615A5B2001E5B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B779986D2615A5B2001E5B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B779986F2615A5B2001E5B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.judongseok.MojitoEats;
+				PRODUCT_NAME = MojitoEats;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B77998702615A5B2001E5B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.judongseok.MojitoEats;
+				PRODUCT_NAME = MojitoEats;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B77998722615A5B2001E5B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.judongseok.MojitoEats;
+				PRODUCT_NAME = MojitoEats;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B77998732615A5B2001E5B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.judongseok.MojitoEats;
+				PRODUCT_NAME = MojitoEats;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B77998512615A5B0001E5B0B /* Build configuration list for PBXProject "MojitoEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B779986C2615A5B2001E5B0B /* Debug */,
+				B779986D2615A5B2001E5B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B779986E2615A5B2001E5B0B /* Build configuration list for PBXNativeTarget "MojitoEats (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B779986F2615A5B2001E5B0B /* Debug */,
+				B77998702615A5B2001E5B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77998712615A5B2001E5B0B /* Build configuration list for PBXNativeTarget "MojitoEats (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77998722615A5B2001E5B0B /* Debug */,
+				B77998732615A5B2001E5B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B779984E2615A5B0001E5B0B /* Project object */;
+}
