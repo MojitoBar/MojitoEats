@@ -8,30 +8,45 @@
 import SwiftUI
 
 struct HomeView: View {
-    let columns: [GridItem] = [
-        GridItem(.flexible())
-    ]
-    
+    // for sticky header
+    @State var timer = Timer.publish(every: 0.001, on: .main, in: .tracking).autoconnect()
+    @State var show = false
     var body: some View {
         VStack{
             // navigation
             NavbarView()
-            ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: false, content: {
-                // events
-                EventView()
-                // kategorie
-                KategorieView()
-                // popular
-                PopularView()
-                // choice_store
-                ChoiceStore()
-                LazyVGrid(columns: columns, spacing: 10, pinnedViews:[.sectionHeaders], content: {
-                    Section(header: StickyHeader()){
-                        Content()
+            ZStack{
+                ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: false, content: {
+                    // events
+                    EventView()
+                    // kategorie
+                    KategorieView()
+                    // popular
+                    PopularView()
+                    // choice_store
+                    ChoiceStore()
+                    GeometryReader{g in
+                        StickyHeader()
+                            .onReceive(self.timer, perform: { _ in
+                                // for tracking the image is scrolled out or not
+                                let y = g.frame(in: .global).minY
+                                // -511
+                                if -y > (UIScreen.main.bounds.height / 2.2) - (UIScreen.main.bounds.height * 0.57){
+                                    self.show = true
+                                }
+                                else{
+                                    self.show = false
+                                }
+                            })
                     }
+                    Content()
+                        .offset(y: 50)
                 })
-            })
-            .padding(.top, -8)
+                .padding(.top, -8)
+                if self.show{
+                    TopView()
+                }
+            }
         } 
     }
 }

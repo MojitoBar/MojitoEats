@@ -32,6 +32,37 @@ struct DropDown : View{
     }
 }
 
+struct TopView: View{
+    var body: some View{
+        ZStack{
+            Rectangle()
+                .frame(width: nil, height: 1, alignment: .top)
+                .shadow(color: Color.black.opacity(1), radius: 2.0, x: 0.0, y: 0.0)
+                // offset
+                .offset(y: -(UIScreen.main.bounds.height * 0.328))
+            ScrollView (.horizontal, showsIndicators: false){
+                HStack{
+                    DropDown(name: "추천순")
+                        .padding(.leading, 20)
+                    DropDown(name: "배달비")
+                    DropDown(name: "최소주문")
+                    DropDown(name: "할인쿠폰")
+                }
+            }
+            .padding(.init(top: 15, leading: 0, bottom: 15, trailing: 0))
+            .background(Color.white)
+            .overlay(
+                Rectangle()
+                    .frame(width: nil, height: 1, alignment: .top)
+                    .foregroundColor(Color("CustomGray"))
+                , alignment: .top
+            )
+            // offset
+            .offset(y: -(UIScreen.main.bounds.height * 0.356))
+        }
+    }
+}
+
 struct StickyHeader: View{
     var body: some View{
         ScrollView (.horizontal, showsIndicators: false){
@@ -51,30 +82,32 @@ struct StickyHeader: View{
 struct Content: View{
     var foods = ["cake", "coffee", "brunch", "bingsu", "chocolate", "icecream", "cocktail"]
     var body: some View{
-        ForEach(foods, id: \.self){ food in
-            VStack(alignment: .leading){
-                Image(food)
-                    .resizable()
-                HStack{
-                    Text(food)
-                        .font(.system(size: 18))
-                        .fontWeight(.medium)
-                    Spacer()
-                    Text("12-22분")
-                        .font(.system(size: 14))
-                }
-                HStack{
-                    Image(systemName: "star.fill")
+        VStack{
+            ForEach(foods, id: \.self){ food in
+                VStack(alignment: .leading){
+                    Image(food)
                         .resizable()
-                        .frame(width: 15, height: 15)
-                        .foregroundColor(.yellow)
-                    Text("4.5(300) · 0.7km · 무료배달")
-                        .font(.system(size: 14))
+                    HStack{
+                        Text(food)
+                            .font(.system(size: 18))
+                            .fontWeight(.medium)
+                        Spacer()
+                        Text("12-22분")
+                            .font(.system(size: 14))
+                    }
+                    HStack{
+                        Image(systemName: "star.fill")
+                            .resizable()
+                            .frame(width: 15, height: 15)
+                            .foregroundColor(.yellow)
+                        Text("4.5(300) · 0.7km · 무료배달")
+                            .font(.system(size: 14))
+                    }
+                    .padding(.init(top: -5, leading: 0, bottom: 0, trailing: 0))
                 }
-                .padding(.init(top: -5, leading: 0, bottom: 0, trailing: 0))
+                .frame(width: UIScreen.main.bounds.width * 0.9, height: 250)
+                .padding(.init(top: -10, leading: 0, bottom: 20, trailing: 0))
             }
-            .frame(width: UIScreen.main.bounds.width * 0.9, height: 250)
-            .padding(.init(top: -10, leading: 0, bottom: 10, trailing: 0))
         }
     }
 }
