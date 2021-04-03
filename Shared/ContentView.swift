@@ -4,13 +4,22 @@
 //
 //  Created by judongseok on 2021/04/01.
 //
-
 import SwiftUI
-
 struct ContentView: View {
+    @State var Screen: String = "Home"
+    @State var OpacityNum: [Double] = [1, 0.5, 0.5, 0.5, 0.5]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            switch Screen {
+                case "Home":
+                    HomeView()
+                case "Search":
+                    Text("Search")
+                default:
+                    HomeView()
+            }
+            TabButtonView(Screen: $Screen, OpacityArr: $OpacityNum)
+        }
     }
 }
 
