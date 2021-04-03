@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73051952617199000C8BF10 /* NavbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051942617199000C8BF10 /* NavbarView.swift */; };
+		B73051962617199000C8BF10 /* NavbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051942617199000C8BF10 /* NavbarView.swift */; };
+		B730519C26171A1C00C8BF10 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B730519B26171A1C00C8BF10 /* EventView.swift */; };
+		B730519D26171A1C00C8BF10 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B730519B26171A1C00C8BF10 /* EventView.swift */; };
+		B73051A326171E8A00C8BF10 /* KategorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051A226171E8A00C8BF10 /* KategorieView.swift */; };
+		B73051A426171E8A00C8BF10 /* KategorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051A226171E8A00C8BF10 /* KategorieView.swift */; };
+		B73051AA26171EFA00C8BF10 /* PopularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051A926171EFA00C8BF10 /* PopularView.swift */; };
+		B73051AB26171EFA00C8BF10 /* PopularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051A926171EFA00C8BF10 /* PopularView.swift */; };
+		B73051B126174BB700C8BF10 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051B026174BB700C8BF10 /* HomeView.swift */; };
+		B73051B226174BB700C8BF10 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051B026174BB700C8BF10 /* HomeView.swift */; };
+		B73051B62617531000C8BF10 /* ButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051B52617531000C8BF10 /* ButtonGroup.swift */; };
+		B73051B72617531000C8BF10 /* ButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051B52617531000C8BF10 /* ButtonGroup.swift */; };
 		B77998662615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */; };
 		B77998672615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */; };
 		B77998682615A5B2001E5B0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998542615A5B0001E5B0B /* ContentView.swift */; };
 		B77998692615A5B2001E5B0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998542615A5B0001E5B0B /* ContentView.swift */; };
 		B779986A2615A5B2001E5B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77998552615A5B2001E5B0B /* Assets.xcassets */; };
 		B779986B2615A5B2001E5B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77998552615A5B2001E5B0B /* Assets.xcassets */; };
+		B788562E26176CD80064276D /* ChoiceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788562D26176CD80064276D /* ChoiceStore.swift */; };
+		B788562F26176CD80064276D /* ChoiceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788562D26176CD80064276D /* ChoiceStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B73051942617199000C8BF10 /* NavbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarView.swift; sourceTree = "<group>"; };
+		B730519B26171A1C00C8BF10 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		B73051A226171E8A00C8BF10 /* KategorieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorieView.swift; sourceTree = "<group>"; };
+		B73051A926171EFA00C8BF10 /* PopularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularView.swift; sourceTree = "<group>"; };
+		B73051B026174BB700C8BF10 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B73051B52617531000C8BF10 /* ButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGroup.swift; sourceTree = "<group>"; };
 		B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojitoEatsApp.swift; sourceTree = "<group>"; };
 		B77998542615A5B0001E5B0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B77998552615A5B2001E5B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +44,7 @@
 		B77998622615A5B2001E5B0B /* MojitoEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojitoEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77998642615A5B2001E5B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B77998652615A5B2001E5B0B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B788562D26176CD80064276D /* ChoiceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +80,14 @@
 			children = (
 				B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */,
 				B77998542615A5B0001E5B0B /* ContentView.swift */,
+				B73051B52617531000C8BF10 /* ButtonGroup.swift */,
+				B73051B026174BB700C8BF10 /* HomeView.swift */,
+				B788562D26176CD80064276D /* ChoiceStore.swift */,
+				B730519B26171A1C00C8BF10 /* EventView.swift */,
 				B77998552615A5B2001E5B0B /* Assets.xcassets */,
+				B73051942617199000C8BF10 /* NavbarView.swift */,
+				B73051A226171E8A00C8BF10 /* KategorieView.swift */,
+				B73051A926171EFA00C8BF10 /* PopularView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,8 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73051952617199000C8BF10 /* NavbarView.swift in Sources */,
+				B73051B126174BB700C8BF10 /* HomeView.swift in Sources */,
+				B788562E26176CD80064276D /* ChoiceStore.swift in Sources */,
 				B77998682615A5B2001E5B0B /* ContentView.swift in Sources */,
 				B77998662615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */,
+				B73051A326171E8A00C8BF10 /* KategorieView.swift in Sources */,
+				B73051B62617531000C8BF10 /* ButtonGroup.swift in Sources */,
+				B73051AA26171EFA00C8BF10 /* PopularView.swift in Sources */,
+				B730519C26171A1C00C8BF10 /* EventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73051962617199000C8BF10 /* NavbarView.swift in Sources */,
+				B73051B226174BB700C8BF10 /* HomeView.swift in Sources */,
+				B788562F26176CD80064276D /* ChoiceStore.swift in Sources */,
 				B77998692615A5B2001E5B0B /* ContentView.swift in Sources */,
 				B77998672615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */,
+				B73051A426171E8A00C8BF10 /* KategorieView.swift in Sources */,
+				B73051B72617531000C8BF10 /* ButtonGroup.swift in Sources */,
+				B73051AB26171EFA00C8BF10 /* PopularView.swift in Sources */,
+				B730519D26171A1C00C8BF10 /* EventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
