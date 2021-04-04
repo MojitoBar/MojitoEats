@@ -16,7 +16,7 @@ struct HomeView: View {
             // navigation
             NavbarView()
             ZStack{
-                ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: false, content: {
+                ScrollView(.vertical, showsIndicators: false, content: {
                     // events
                     EventView()
                     // kategorie
@@ -42,7 +42,7 @@ struct HomeView: View {
                     Content()
                         .offset(y: 50)
                 })
-                .padding(.top, -8)
+                .padding(.vertical, -8)
                 if self.show{
                     TopView()
                 }

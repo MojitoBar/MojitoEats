@@ -31,8 +31,7 @@ struct NavbarView: View {
                 .foregroundColor(.black)
                 .padding(.leading, UIScreen.main.bounds.size.width * 0.8)
             }
-            .padding(.init(top: 15, leading: 0, bottom: 10, trailing: 0))
-            
+            .frame(height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             Divider()
         }
     }
