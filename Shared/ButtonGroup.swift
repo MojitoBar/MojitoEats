@@ -76,7 +76,7 @@ struct HeartButton: View {
                         .resizable()
                         .frame(width: size, height: size)
                         .padding(.top, 10)
-                    Text("즐겨찾기")
+                    Text("같이먹자")
                         .font(.footnote)
                     Spacer()
                 }
@@ -143,6 +143,7 @@ struct TabButtonView: View{
     @Binding var OpacityArr: [Double]
     
     var body: some View{
+        Divider()
         HStack {
             HomeButton(Screen: $Screen, OpacityArr: $OpacityArr)
             SearchButton(Screen: $Screen, OpacityArr: $OpacityArr)

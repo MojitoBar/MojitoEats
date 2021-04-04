@@ -14,7 +14,7 @@ struct ContentView: View {
                 case "Home":
                     HomeView()
                 case "Search":
-                    Text("Search")
+                    SearchView()
                 default:
                     HomeView()
             }

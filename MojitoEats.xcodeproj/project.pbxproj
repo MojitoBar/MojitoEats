@@ -27,6 +27,12 @@
 		B779986B2615A5B2001E5B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77998552615A5B2001E5B0B /* Assets.xcassets */; };
 		B788562E26176CD80064276D /* ChoiceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788562D26176CD80064276D /* ChoiceStore.swift */; };
 		B788562F26176CD80064276D /* ChoiceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788562D26176CD80064276D /* ChoiceStore.swift */; };
+		B788563326196E3E0064276D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788563226196E3E0064276D /* SwiftUIView.swift */; };
+		B788563426196E3E0064276D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B788563226196E3E0064276D /* SwiftUIView.swift */; };
+		B7BA05452619967200CA0DD1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA05442619967200CA0DD1 /* SearchView.swift */; };
+		B7BA05462619967200CA0DD1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA05442619967200CA0DD1 /* SearchView.swift */; };
+		B7BA054C2619970800CA0DD1 /* SearchNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA054B2619970800CA0DD1 /* SearchNavBar.swift */; };
+		B7BA054D2619970800CA0DD1 /* SearchNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA054B2619970800CA0DD1 /* SearchNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +51,9 @@
 		B77998642615A5B2001E5B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B77998652615A5B2001E5B0B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		B788562D26176CD80064276D /* ChoiceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceStore.swift; sourceTree = "<group>"; };
+		B788563226196E3E0064276D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B7BA05442619967200CA0DD1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B7BA054B2619970800CA0DD1 /* SearchNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,16 +87,13 @@
 		B77998522615A5B0001E5B0B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B7BA054A261996B500CA0DD1 /* SearchView */,
+				B7BA05492619969400CA0DD1 /* HomeView */,
 				B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */,
 				B77998542615A5B0001E5B0B /* ContentView.swift */,
 				B73051B52617531000C8BF10 /* ButtonGroup.swift */,
-				B73051B026174BB700C8BF10 /* HomeView.swift */,
-				B788562D26176CD80064276D /* ChoiceStore.swift */,
-				B730519B26171A1C00C8BF10 /* EventView.swift */,
 				B77998552615A5B2001E5B0B /* Assets.xcassets */,
-				B73051942617199000C8BF10 /* NavbarView.swift */,
-				B73051A226171E8A00C8BF10 /* KategorieView.swift */,
-				B73051A926171EFA00C8BF10 /* PopularView.swift */,
+				B788563226196E3E0064276D /* SwiftUIView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -116,6 +122,28 @@
 				B77998652615A5B2001E5B0B /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		B7BA05492619969400CA0DD1 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				B788562D26176CD80064276D /* ChoiceStore.swift */,
+				B730519B26171A1C00C8BF10 /* EventView.swift */,
+				B73051942617199000C8BF10 /* NavbarView.swift */,
+				B73051A226171E8A00C8BF10 /* KategorieView.swift */,
+				B73051A926171EFA00C8BF10 /* PopularView.swift */,
+				B73051B026174BB700C8BF10 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		B7BA054A261996B500CA0DD1 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				B7BA05442619967200CA0DD1 /* SearchView.swift */,
+				B7BA054B2619970800CA0DD1 /* SearchNavBar.swift */,
+			);
+			path = SearchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,11 +247,14 @@
 				B73051B126174BB700C8BF10 /* HomeView.swift in Sources */,
 				B788562E26176CD80064276D /* ChoiceStore.swift in Sources */,
 				B77998682615A5B2001E5B0B /* ContentView.swift in Sources */,
+				B788563326196E3E0064276D /* SwiftUIView.swift in Sources */,
 				B77998662615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */,
 				B73051A326171E8A00C8BF10 /* KategorieView.swift in Sources */,
 				B73051B62617531000C8BF10 /* ButtonGroup.swift in Sources */,
 				B73051AA26171EFA00C8BF10 /* PopularView.swift in Sources */,
+				B7BA054C2619970800CA0DD1 /* SearchNavBar.swift in Sources */,
 				B730519C26171A1C00C8BF10 /* EventView.swift in Sources */,
+				B7BA05452619967200CA0DD1 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,11 +266,14 @@
 				B73051B226174BB700C8BF10 /* HomeView.swift in Sources */,
 				B788562F26176CD80064276D /* ChoiceStore.swift in Sources */,
 				B77998692615A5B2001E5B0B /* ContentView.swift in Sources */,
+				B788563426196E3E0064276D /* SwiftUIView.swift in Sources */,
 				B77998672615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */,
 				B73051A426171E8A00C8BF10 /* KategorieView.swift in Sources */,
 				B73051B72617531000C8BF10 /* ButtonGroup.swift in Sources */,
 				B73051AB26171EFA00C8BF10 /* PopularView.swift in Sources */,
+				B7BA054D2619970800CA0DD1 /* SearchNavBar.swift in Sources */,
 				B730519D26171A1C00C8BF10 /* EventView.swift in Sources */,
+				B7BA05462619967200CA0DD1 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
