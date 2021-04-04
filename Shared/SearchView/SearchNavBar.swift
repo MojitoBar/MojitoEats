@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ClearButton: ButtonStyle {
+    @State var color: Color
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .padding()
-            .foregroundColor(.gray)
+            .foregroundColor(color)
     }
 }
 
@@ -28,7 +28,7 @@ struct SearchHeader: View {
                         .font(.system(size: 22, weight: .heavy, design: .default))
                         .padding(.leading, -90)
                 })
-                .buttonStyle(ClearButton())
+                .buttonStyle(ClearButton(color: Color.gray))
             }
             .padding(.leading, -50)
             Image(systemName: "magnifyingglass")
