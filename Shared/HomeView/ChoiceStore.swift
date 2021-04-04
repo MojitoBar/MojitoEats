@@ -84,29 +84,35 @@ struct Content: View{
     var body: some View{
         VStack{
             ForEach(foods, id: \.self){ food in
-                VStack(alignment: .leading){
-                    Image(food)
-                        .resizable()
-                    HStack{
-                        Text(food)
-                            .font(.system(size: 18))
-                            .fontWeight(.medium)
-                        Spacer()
-                        Text("12-22분")
-                            .font(.system(size: 14))
-                    }
-                    HStack{
-                        Image(systemName: "star.fill")
-                            .resizable()
-                            .frame(width: 15, height: 15)
-                            .foregroundColor(.yellow)
-                        Text("4.5(300) · 0.7km · 무료배달")
-                            .font(.system(size: 14))
-                    }
-                    .padding(.init(top: -5, leading: 0, bottom: 0, trailing: 0))
-                }
-                .frame(width: UIScreen.main.bounds.width * 0.9, height: 250)
-                .padding(.init(top: -10, leading: 0, bottom: 20, trailing: 0))
+                NavigationLink(
+                    destination: Text("Destination"),
+                    label: {
+                        VStack(alignment: .leading){
+                            Image(food)
+                                .resizable()
+                            HStack{
+                                Text(food)
+                                    .font(.system(size: 18))
+                                    .fontWeight(.medium)
+                                Spacer()
+                                Text("12-22분")
+                                    .font(.system(size: 14))
+                            }
+                            HStack{
+                                Image(systemName: "star.fill")
+                                    .resizable()
+                                    .frame(width: 15, height: 15)
+                                    .foregroundColor(.yellow)
+                                Text("4.5(300) · 0.7km · 무료배달")
+                                    .font(.system(size: 14))
+                            }
+                            .padding(.init(top: -5, leading: 0, bottom: 0, trailing: 0))
+                        }
+                        .frame(width: UIScreen.main.bounds.width * 0.9, height: 250)
+                        .padding(.init(top: -10, leading: 0, bottom: 20, trailing: 0))
+                    })
+                    .foregroundColor(.black)
+                    .buttonStyle(ClearButton(color: Color.black))
             }
         }
     }
@@ -130,5 +136,6 @@ struct ChoiceStore: View {
 struct ChoiceStore_Previews: PreviewProvider {
     static var previews: some View {
         ChoiceStore()
+        Content()
     }
 }

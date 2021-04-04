@@ -9,11 +9,13 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        LazyVGrid(columns: /*@START_MENU_TOKEN@*/[GridItem(.fixed(20))]/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, pinnedViews: [.sectionHeaders], content: {
-            Section{
-                Text("asdf")
-            }
-        })
+        NavigationView{
+            NavigationLink(
+                destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
+                label: {
+                    /*@START_MENU_TOKEN@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+                })
+        }
     }
 }
 
