@@ -39,7 +39,7 @@ struct TopView: View{
                 .frame(width: nil, height: 1, alignment: .top)
                 .shadow(color: Color.black.opacity(1), radius: 2.0, x: 0.0, y: 0.0)
                 // offset
-                .offset(y: -(UIScreen.main.bounds.height * 0.328))
+                .offset(y: -(UIScreen.main.bounds.height * 0.333))
             ScrollView (.horizontal, showsIndicators: false){
                 HStack{
                     DropDown(name: "추천순")
@@ -58,7 +58,7 @@ struct TopView: View{
                 , alignment: .top
             )
             // offset
-            .offset(y: -(UIScreen.main.bounds.height * 0.356))
+            .offset(y: -(UIScreen.main.bounds.height * 0.361))
         }
     }
 }
@@ -115,6 +115,7 @@ struct Content: View{
                     .buttonStyle(ClearButton(color: Color.black))
             }
         }
+        .padding(.bottom, 50)
     }
 }
 
