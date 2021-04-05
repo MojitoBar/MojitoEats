@@ -15,6 +15,10 @@ struct ContentView: View {
                     HomeView()
                 case "Search":
                     SearchView()
+                case "Order":
+                    OrderView()
+                case "User":
+                    UserView()
                 default:
                     HomeView()
             }

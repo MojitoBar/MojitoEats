@@ -144,6 +144,7 @@ struct TabButtonView: View{
     
     var body: some View{
         Divider()
+            .offset(y: -8)
         HStack {
             HomeButton(Screen: $Screen, OpacityArr: $OpacityArr)
             SearchButton(Screen: $Screen, OpacityArr: $OpacityArr)
@@ -151,7 +152,6 @@ struct TabButtonView: View{
             OrderButton(Screen: $Screen, OpacityArr: $OpacityArr)
             UserButton(Screen: $Screen, OpacityArr: $OpacityArr)
         }
-        .frame(width: UIScreen.main.bounds.width * 0.95, height: 70)
+        .background(Color.clear)
     }
 }
-

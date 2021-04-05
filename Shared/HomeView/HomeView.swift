@@ -46,7 +46,6 @@ struct HomeView: View {
                     .padding(.vertical, -8)
                     if self.show{
                         TopView()
-                            .offset(y: 5)
                     }
                 }
             }

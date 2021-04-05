@@ -33,6 +33,10 @@
 		B7BA05462619967200CA0DD1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA05442619967200CA0DD1 /* SearchView.swift */; };
 		B7BA054C2619970800CA0DD1 /* SearchNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA054B2619970800CA0DD1 /* SearchNavBar.swift */; };
 		B7BA054D2619970800CA0DD1 /* SearchNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA054B2619970800CA0DD1 /* SearchNavBar.swift */; };
+		B7BB791B261B396C0024372E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB791A261B396C0024372E /* OrderView.swift */; };
+		B7BB7921261B57D60024372E /* OrderContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB7920261B57D60024372E /* OrderContent.swift */; };
+		B7BB7925261B58780024372E /* OrderNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB7924261B58780024372E /* OrderNavBar.swift */; };
+		B7BB792A261B68CE0024372E /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB7929261B68CE0024372E /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		B788563226196E3E0064276D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		B7BA05442619967200CA0DD1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		B7BA054B2619970800CA0DD1 /* SearchNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavBar.swift; sourceTree = "<group>"; };
+		B7BB791A261B396C0024372E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		B7BB7920261B57D60024372E /* OrderContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderContent.swift; sourceTree = "<group>"; };
+		B7BB7924261B58780024372E /* OrderNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderNavBar.swift; sourceTree = "<group>"; };
+		B7BB7929261B68CE0024372E /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,8 @@
 		B77998522615A5B0001E5B0B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B7BB7928261B68C40024372E /* UserView */,
+				B7BB7919261B39630024372E /* OrderView */,
 				B7BA054A261996B500CA0DD1 /* SearchView */,
 				B7BA05492619969400CA0DD1 /* HomeView */,
 				B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */,
@@ -144,6 +154,24 @@
 				B7BA054B2619970800CA0DD1 /* SearchNavBar.swift */,
 			);
 			path = SearchView;
+			sourceTree = "<group>";
+		};
+		B7BB7919261B39630024372E /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				B7BB791A261B396C0024372E /* OrderView.swift */,
+				B7BB7920261B57D60024372E /* OrderContent.swift */,
+				B7BB7924261B58780024372E /* OrderNavBar.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		B7BB7928261B68C40024372E /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				B7BB7929261B68CE0024372E /* UserView.swift */,
+			);
+			path = UserView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,12 +272,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73051952617199000C8BF10 /* NavbarView.swift in Sources */,
+				B7BB791B261B396C0024372E /* OrderView.swift in Sources */,
 				B73051B126174BB700C8BF10 /* HomeView.swift in Sources */,
+				B7BB792A261B68CE0024372E /* UserView.swift in Sources */,
 				B788562E26176CD80064276D /* ChoiceStore.swift in Sources */,
 				B77998682615A5B2001E5B0B /* ContentView.swift in Sources */,
 				B788563326196E3E0064276D /* SwiftUIView.swift in Sources */,
 				B77998662615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */,
 				B73051A326171E8A00C8BF10 /* KategorieView.swift in Sources */,
+				B7BB7921261B57D60024372E /* OrderContent.swift in Sources */,
+				B7BB7925261B58780024372E /* OrderNavBar.swift in Sources */,
 				B73051B62617531000C8BF10 /* ButtonGroup.swift in Sources */,
 				B73051AA26171EFA00C8BF10 /* PopularView.swift in Sources */,
 				B7BA054C2619970800CA0DD1 /* SearchNavBar.swift in Sources */,
