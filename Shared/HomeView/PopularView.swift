@@ -48,11 +48,28 @@ struct PopularView: View {
                                 
                                 Text("무료배달")
                                     .font(.system(size: 14))
+                                    .padding(.leading, -6)
                             }
                             .padding(.leading, 8)
                         })
                         .buttonStyle(ClearButton(color: Color.black))
                     }
+                    VStack{
+                        Circle()
+                            .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .foregroundColor(.white)
+                            .shadow(color: .gray, radius: 3, x: 0.0, y: 0.0)
+                            .overlay(
+                                Image(systemName: "arrow.right")
+                                    .resizable()
+                                    .frame(width: 30, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.173))
+                            )
+                        Text("더보기")
+                            .foregroundColor(Color(hue: 1.0, saturation: 0.0, brightness: 0.173))
+                            .font(.system(size: 15))
+                    }
+                    .padding(.init(top: 0, leading: 50, bottom: 0, trailing: 40))
                 }
                 .padding(.leading, 23)
             }
