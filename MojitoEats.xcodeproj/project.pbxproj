@@ -37,6 +37,7 @@
 		B7BB7921261B57D60024372E /* OrderContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB7920261B57D60024372E /* OrderContent.swift */; };
 		B7BB7925261B58780024372E /* OrderNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB7924261B58780024372E /* OrderNavBar.swift */; };
 		B7BB792A261B68CE0024372E /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BB7929261B68CE0024372E /* UserView.swift */; };
+		B7E3021A261CA1AC00A10EDA /* Together.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E30219261CA1AC00A10EDA /* Together.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		B7BB7920261B57D60024372E /* OrderContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderContent.swift; sourceTree = "<group>"; };
 		B7BB7924261B58780024372E /* OrderNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderNavBar.swift; sourceTree = "<group>"; };
 		B7BB7929261B68CE0024372E /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		B7E30219261CA1AC00A10EDA /* Together.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Together.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		B77998522615A5B0001E5B0B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B7E30218261CA1A600A10EDA /* Together */,
 				B7BB7928261B68C40024372E /* UserView */,
 				B7BB7919261B39630024372E /* OrderView */,
 				B7BA054A261996B500CA0DD1 /* SearchView */,
@@ -172,6 +175,14 @@
 				B7BB7929261B68CE0024372E /* UserView.swift */,
 			);
 			path = UserView;
+			sourceTree = "<group>";
+		};
+		B7E30218261CA1A600A10EDA /* Together */ = {
+			isa = PBXGroup;
+			children = (
+				B7E30219261CA1AC00A10EDA /* Together.swift */,
+			);
+			path = Together;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 				B73051A326171E8A00C8BF10 /* KategorieView.swift in Sources */,
 				B7BB7921261B57D60024372E /* OrderContent.swift in Sources */,
 				B7BB7925261B58780024372E /* OrderNavBar.swift in Sources */,
+				B7E3021A261CA1AC00A10EDA /* Together.swift in Sources */,
 				B73051B62617531000C8BF10 /* ButtonGroup.swift in Sources */,
 				B73051AA26171EFA00C8BF10 /* PopularView.swift in Sources */,
 				B7BA054C2619970800CA0DD1 /* SearchNavBar.swift in Sources */,

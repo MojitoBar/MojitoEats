@@ -68,7 +68,7 @@ struct HeartButton: View {
     var body: some View{
         VStack {
             Button(action: {
-                Screen = "Heart"
+                Screen = "Together"
                 OpacityArr = [0.5, 0.5, 1, 0.5, 0.5]
             }, label: {
                 VStack {

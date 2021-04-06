@@ -19,6 +19,8 @@ struct ContentView: View {
                     OrderView()
                 case "User":
                     UserView()
+                case "Together":
+                    Together()
                 default:
                     HomeView()
             }
