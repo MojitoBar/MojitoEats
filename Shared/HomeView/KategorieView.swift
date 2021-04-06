@@ -25,7 +25,7 @@ struct KategorieView: View {
                         }
                     }
                 }
-                .padding(.leading, 15)
+                .padding(.horizontal, 15)
             }
         }
         Rectangle()
