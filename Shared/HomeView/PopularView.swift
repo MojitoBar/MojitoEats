@@ -51,6 +51,7 @@ struct PopularView: View {
                                     .padding(.leading, -6)
                             }
                             .padding(.leading, 8)
+                            .navigationBarBackButtonHidden(true)
                         })
                         .buttonStyle(ClearButton(color: Color.black))
                     }
