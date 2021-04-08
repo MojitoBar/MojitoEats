@@ -9,7 +9,9 @@ import SwiftUI
 
 struct UserView: View {
     @State var settings: [String] = ["배달 주소 관리", "즐겨찾기", "할인쿠폰", "결제관리", "배달파트너 모집", "자주 묻는 질문", "고객 지원", "설정", "공지사항", "약관 · 개인정보 처리방침"]
+    
     @State var setImage: [String] = ["text.book.closed", "heart", "tag", "creditcard", "bicycle", "bubble.right", "phone", "gearshape", "megaphone", "newspaper"]
+    
     var body: some View {
         VStack {
             Rectangle()

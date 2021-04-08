@@ -19,6 +19,8 @@
 		B73051B226174BB700C8BF10 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051B026174BB700C8BF10 /* HomeView.swift */; };
 		B73051B62617531000C8BF10 /* ButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051B52617531000C8BF10 /* ButtonGroup.swift */; };
 		B73051B72617531000C8BF10 /* ButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73051B52617531000C8BF10 /* ButtonGroup.swift */; };
+		B76E52D7261EC8D4000619B8 /* request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E52D6261EC8D4000619B8 /* request.swift */; };
+		B76E52DB261ECB8E000619B8 /* APItestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E52DA261ECB8E000619B8 /* APItestView.swift */; };
 		B77998662615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */; };
 		B77998672615A5B2001E5B0B /* MojitoEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */; };
 		B77998682615A5B2001E5B0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77998542615A5B0001E5B0B /* ContentView.swift */; };
@@ -47,6 +49,8 @@
 		B73051A926171EFA00C8BF10 /* PopularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularView.swift; sourceTree = "<group>"; };
 		B73051B026174BB700C8BF10 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B73051B52617531000C8BF10 /* ButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGroup.swift; sourceTree = "<group>"; };
+		B76E52D6261EC8D4000619B8 /* request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = request.swift; sourceTree = "<group>"; };
+		B76E52DA261ECB8E000619B8 /* APItestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APItestView.swift; sourceTree = "<group>"; };
 		B77998532615A5B0001E5B0B /* MojitoEatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojitoEatsApp.swift; sourceTree = "<group>"; };
 		B77998542615A5B0001E5B0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B77998552615A5B2001E5B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B76E52CF261EC517000619B8 /* DBtable */ = {
+			isa = PBXGroup;
+			children = (
+				B76E52D6261EC8D4000619B8 /* request.swift */,
+			);
+			path = DBtable;
+			sourceTree = "<group>";
+		};
 		B779984D2615A5B0001E5B0B = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +109,7 @@
 		B77998522615A5B0001E5B0B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B76E52CF261EC517000619B8 /* DBtable */,
 				B7E30218261CA1A600A10EDA /* Together */,
 				B7BB7928261B68C40024372E /* UserView */,
 				B7BB7919261B39630024372E /* OrderView */,
@@ -173,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				B7BB7929261B68CE0024372E /* UserView.swift */,
+				B76E52DA261ECB8E000619B8 /* APItestView.swift */,
 			);
 			path = UserView;
 			sourceTree = "<group>";
@@ -293,6 +307,8 @@
 				B73051A326171E8A00C8BF10 /* KategorieView.swift in Sources */,
 				B7BB7921261B57D60024372E /* OrderContent.swift in Sources */,
 				B7BB7925261B58780024372E /* OrderNavBar.swift in Sources */,
+				B76E52D7261EC8D4000619B8 /* request.swift in Sources */,
+				B76E52DB261ECB8E000619B8 /* APItestView.swift in Sources */,
 				B7E3021A261CA1AC00A10EDA /* Together.swift in Sources */,
 				B73051B62617531000C8BF10 /* ButtonGroup.swift in Sources */,
 				B73051AA26171EFA00C8BF10 /* PopularView.swift in Sources */,
